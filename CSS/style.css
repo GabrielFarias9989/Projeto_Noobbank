@@ -1,0 +1,82 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.nu {
+    width: 90px;
+}
+
+.btn {
+    margin-left: 83%;
+    width: 40px;
+    height: 35px;
+    border: 2px #8a05be solid;
+    border-radius: 20px;
+    background-color: #8a05be;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #8a05be;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+h1 {
+    margin-left: 7%;
+}
+
+label {
+    margin-left: 9%;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;   
+}
+
+input:not([type="checkbox"]){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin-top: 4px;
+    margin-left: 7%;
+    padding: 10px;
+    border: 1px solid #b2b2b2;
+    border-radius: 30px;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    background: white;
+    border-radius: 20px
+}
+
+.box2 {
+    /*display: block;*/
+    display: none;
+    position: absolute;
+    /*top: 183px;*/
+    /*left: 31%;*/
+    width: 500px;
+    height: 300px;
+    background: white;
+    border-radius: 20px
+}
+
+body {
+    margin: 0px;
+}
+
+#arrow {
+    width: 20px;
+    height: 20px;
+}
